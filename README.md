@@ -35,7 +35,7 @@
 
 1. Clona il repository:
    ```bash
-   git clone [https://github.com/tuo-utente/cody-write-magazine.git](https://github.com/StefanHritcu/Cody-Write-Magazine.git)
+   git clone https://github.com/StefanHritcu/Cody-Write-Magazine.git
 
 2. Installa le dipendenze:
    ```bash
