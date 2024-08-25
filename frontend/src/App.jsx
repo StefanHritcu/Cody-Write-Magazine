@@ -3,16 +3,19 @@ import { Routes, Route } from "react-router-dom";
 import ChiSiamo from "./components/chisiamo/ChiSiamo";
 import Contatti from "./components/contatti/Contatti";
 import Header from "./components/header/Header";
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
     <>
-      <Header />
+      <HelmetProvider>
+        <Header />
 
-      <Routes>
-        <Route path="/chisiamo" element={<ChiSiamo />} />
-        <Route path="/contatti" element={<Contatti />} />
-      </Routes>
+        <Routes>
+          <Route path="/chisiamo" element={<ChiSiamo />} />
+          <Route path="/contatti" element={<Contatti />} />
+        </Routes>
+      </HelmetProvider>
     </>
   );
 }

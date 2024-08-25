@@ -1,7 +1,13 @@
+import { Helmet } from "react-helmet-async";
+
 function ChiSiamo() {
   return (
     <>
-      <h1>ChiSiamo</h1>
+      <Helmet>
+        <title>Chi Siamo | Code Write</title>
+      </Helmet>
+
+      <h1>Chi Siamo</h1>
     </>
   );
 }
