@@ -10,7 +10,6 @@ function App() {
     <>
       <HelmetProvider>
         <Header />
-
         <Routes>
           <Route path="/chisiamo" element={<ChiSiamo />} />
           <Route path="/contatti" element={<Contatti />} />
