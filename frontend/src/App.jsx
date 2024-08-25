@@ -5,16 +5,19 @@ import Contatti from "./components/contatti/Contatti";
 import Header from "./components/header/Header";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import { HelmetProvider } from "react-helmet-async";
 
 function App() {
   return (
     <>
-      <Header />
+      <HelmetProvider>
+        <Header />
 
-      <Routes>
-        <Route path="/chisiamo" element={<ChiSiamo />} />
-        <Route path="/contatti" element={<Contatti />} />
-      </Routes>
+        <Routes>
+          <Route path="/chisiamo" element={<ChiSiamo />} />
+          <Route path="/contatti" element={<Contatti />} />
+        </Routes>
+      </HelmetProvider>
     </>
   );
 }
