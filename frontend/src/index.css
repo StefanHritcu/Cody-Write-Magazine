@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #242424;   /* Colore principale */
+  --shadow-color: #343434;    /* Colore di contrasto del colore principale (colore del body) */
+  --secondary-color: #f3db04; /* Colore di contrasto principale (h1, titoli, bottoni, ecc.) */
+  --success-color: #f06c2a;   /* Colore d'effetto al click di link/bottoni tramite hover, active, ecc. */
+  --danger-color: #dc3545;    /* Colore di errore */
+
+  --font-family-base: 'Arial', sans-serif; /* Da determinare ancora */
+  --text-color: #ffff;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family-base);
+  color: var(--text-color);
+  background-color: var(--shadow-color);
+}
+
+h1, .btn-primary {
+  color: var(--secondary-color);
+}
+
+a:hover, button:active {
+  color: var(--success-color);
+}
+
+.error {
+  color: var(--danger-color);
+}
