@@ -18,6 +18,10 @@ body {
   background-color: var(--shadow-color);
 }
 
+.header, footer {
+  background-color: var(--primary-color);
+}
+
 h1, .btn-primary {
   color: var(--secondary-color);
 }
