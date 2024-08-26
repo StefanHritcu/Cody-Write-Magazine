@@ -12,7 +12,7 @@ function App() {
     <>
       <HelmetProvider>
         <Header />
-
+        {/* Routes */}
         <Routes>
           <Route path="/chisiamo" element={<ChiSiamo />} />
           <Route path="/contatti" element={<Contatti />} />
