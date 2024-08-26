@@ -18,6 +18,17 @@ body {
   background-color: var(--shadow-color);
 }
 
+/* Nav Bar Color */
+.header{
+  background-color: var(--primary-color);
+}
+
+/* Link */
+.header a{
+  text-decoration: none;
+  color: var(--success-color);
+}
+
 h1, .btn-primary {
   color: var(--secondary-color);
 }
