@@ -5,7 +5,7 @@
   --success-color: #f06c2a;   /* Colore d'effetto al click di link/bottoni tramite hover, active, ecc. */
   --danger-color: #dc3545;    /* Colore di errore */
 
-  --font-family-base: "Roboto", system-ui; /* Da determinare ancora */
+  --font-family-base: "Roboto", system-ui; /* Determinato! */
   --text-color: #ffff;
 }
 
@@ -18,24 +18,15 @@ body {
   background-color: var(--shadow-color);
 }
 
-<<<<<<< HEAD
 .header, footer {
   background-color: var(--primary-color);
 }
 
-=======
-/* Nav Bar Color */
-.header{
-  background-color: var(--primary-color);
+.icon-size {
+  transform: scale(1.6);
+  color: white;
 }
 
-/* Link */
-.header a{
-  text-decoration: none;
-  color: var(--success-color);
-}
-
->>>>>>> 17d135550af2bd36dc1a393f7904ab3bda9226ff
 h1, .btn-primary {
   color: var(--secondary-color);
 }
