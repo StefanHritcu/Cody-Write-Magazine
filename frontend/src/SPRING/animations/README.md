@@ -1,0 +1,1 @@
+La cartella ANIMATIONS contiene tutti gli affetti creati con React Spring applicati a varie logiche come il bottone, icona etc

@@ -1,0 +1,1 @@
+La cartella animatedComponents sono file che contengono i componenti che applicano le animazioni della cartella ANIMATIOS

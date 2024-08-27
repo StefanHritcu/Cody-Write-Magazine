@@ -22,16 +22,43 @@ body {
   background-color: var(--primary-color);
 }
 
+/* --------> START FOOTER <-------- */
 .icon-size {
   transform: scale(1.6);
   color: white;
 }
+.custom-link-footer {
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+@media (min-width: 768px) {
+  .responsive-flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .icon-size {
+    margin: 20px;
+  }
+  .link-esterni-responsive {
+    margin-left: 140px;  }
+}
+.custom-link-footer {
+  margin-left: 16px;
+  margin-right: 26px;
+}
+
+/* --------> END FOOTER <-------- */
 
 h1, .btn-primary {
   color: var(--secondary-color);
 }
 
-a:hover, button:active {
+a:hover, a:active, button:active {
   color: var(--success-color);
 }
 
